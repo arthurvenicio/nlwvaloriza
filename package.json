@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Arthur Venicio <stuks.midia@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev--": "cls && ts-node-dev src/server.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.12",
     "ts-node-dev": "^1.1.6",
